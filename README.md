@@ -71,8 +71,21 @@ npx prisma generate
 ```
 
 ## Resources
+
 ```bash
 nest generate resource
+```
+
+## Documentation
+
+Create the documentation with swagger
+
+```bash
+nest new swagger-demo
+
+npm install --save @nestjs/swagger swagger-ui-express
+
+npm i class-validator
 ```
 
 ## Support
